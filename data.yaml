@@ -1,0 +1,13 @@
+train: D:/Smoke detection yolov8/train/images
+val: D:/Smoke detection yolov8/valid/images
+test: D:/Smoke detection yolov8/test/images
+
+nc: 1
+names: ['smoke']
+
+roboflow:
+  workspace: kinjal-makwana-5xsba
+  project: smoke-detection-8yexi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kinjal-makwana-5xsba/smoke-detection-8yexi/dataset/1
